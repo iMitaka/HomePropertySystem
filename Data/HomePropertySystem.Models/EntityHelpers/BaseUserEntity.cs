@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HomePropertySystem.Models.EntityHelpers
+﻿namespace HomePropertySystem.Models.EntityHelpers
 {
     using Microsoft.AspNetCore.Identity;
     using System;
