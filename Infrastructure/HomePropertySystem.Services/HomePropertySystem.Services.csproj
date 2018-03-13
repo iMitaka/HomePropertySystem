@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\HomePropertySystem.Data\HomePropertySystem.Data.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.Constants\HomePropertySystem.Constants.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.DataTransferModels\HomePropertySystem.DataTransferModels.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.ServiceInterfaces\HomePropertySystem.ServiceInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>

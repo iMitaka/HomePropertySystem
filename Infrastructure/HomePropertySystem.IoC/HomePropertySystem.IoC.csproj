@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\HomePropertySystem.Data\HomePropertySystem.Data.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.DataTransferModels\HomePropertySystem.DataTransferModels.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.ServiceInterfaces\HomePropertySystem.ServiceInterfaces.csproj" />
+    <ProjectReference Include="..\HomePropertySystem.Services\HomePropertySystem.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <HintPath>..\..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
